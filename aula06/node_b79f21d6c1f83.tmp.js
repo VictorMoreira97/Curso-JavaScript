@@ -11,17 +11,16 @@
             color: white;
             background-image: linear-gradient(to right, gold, silver, rgb(146, 195, 238));
         }
-        body {
-            font: normal 20pt Arial;
-        }
-
     </style>
 </head>
 <body>
+    <h1>Hello, World!</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, consequatur eum beatae eos aut facilis rerum id laudantium qui quisquam. Doloribus at a esse inventore odit harum, quas voluptatibus voluptas.</p>
     <script>
-        var nome = window.prompt('Qual é o seu nome?')
-        document.write(`Seu nome tem ${nome.length} letras. Josehp`)
-        document.write(`<br> PotSeu nome em maiúsculas é ${nome.toLocaleUpperCase()}`)
+        var n1 = Number.parseInt(window.prompt('Digite um número: '))
+        var n2 = Number.parseInt(window.prompt('Digite outro número: '))
+        var soma = n1 + n2
+        window.alert('A soma dos valores é: ' + soma)
     </script>
 </body>
 </html>
