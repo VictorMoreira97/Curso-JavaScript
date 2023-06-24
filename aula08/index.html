@@ -6,11 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeiros passos com DOM</title>
     <style>
-        body {
-            background: rgb(68, 125, 199);
-            color: white;
-            font: normal 12pt Arial;
-        }
         code {
             background-color: black;
             color: lightgreen;
@@ -21,22 +16,28 @@
     <h1>Iniciando estudos com DOM</h1>
     <p>Aqui vai o resultado</p>
     <p>Apredendo a usar o <strong>DOM</strong> em JavaScript.</p>
+
     <div id="msg">Clique em mim</div>
+
+
     <p><code>window.document.write('Olá Mundo')</code></p>
     <script>
         window.document.write('Olá Mundo')
     </script>
     <br>
+
     <p><code>window.document.write(window.document.charset)</code></p>
     <script>
         window.document.write(window.document.charset)
     </script>
     <br>
+
     <p><code>window.document.write(window.navigator.appName)</code></p>
     <script>
         window.document.write(window.navigator.appName)
     </script>
     <br>
+    
     <p><code>window.document.write(window.document.URL)</code></p>
     <script>
         window.document.write(window.document.URL)
@@ -55,6 +56,9 @@
         var d = window.document.querySelector('div#msg')
         d.style.color = 'yellow'
         d.style.backgroundColor = 'purple'
+
+        var b = window.document.body
+        b.style.backgroundColor = 'blue'
     </script>
 
 </body>
